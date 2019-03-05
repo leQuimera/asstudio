@@ -1,0 +1,11 @@
+.projects {
+  @include clear-list();
+  flex-grow: 1;
+  display: flex;
+  min-width: 465px;
+  background-color: $white;
+}
+
+.projects__item {
+  width: 465px;
+}

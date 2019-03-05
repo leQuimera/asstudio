@@ -1,0 +1,55 @@
+.main-menu {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+}
+
+.main-menu__humburger {
+  position: absolute;
+  top: 50px;
+  left: -292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 125px;
+  height: 120px;
+  background-color: transparent;
+  border: 2px solid$white;
+  z-index: 5;
+}
+
+.main-menu__list {
+  @include clear-list();
+  display: none;
+}
+
+.main-menu__line {
+  position: relative;
+  width: 40px;
+  height: 2px;
+  background-color: $white;
+
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: $white;
+    left: 0;
+    top: 7px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: $white;
+    left: 0;
+    bottom: 7px;
+  }
+}

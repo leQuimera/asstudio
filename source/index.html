@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!--link rel="preload" href="fonts/fontfilename.woff" as="font"-->
+  <title>ASSOCIATES STUDIO DESIGN</title>
+  <link href="css/style.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/lib/picturefill.min.js"></script>
+
+  <!-- Pixel Glass -->
+  <style>
+    HTML {
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      /* По умолчанию мобильный макет */
+      background-image: url("img/preview/*-mobile.jpg");
+    }
+
+    /* Планшет */
+
+    @media ( min-width: 768px) {
+      HTML {
+        /* Планшетный макет */
+        background-image: url("img/preview/*-tablet.jpg");
+      }
+    }
+
+    /* Десктоп */
+
+    @media ( min-width: 1050px) {
+      HTML {
+        /* Десктопный макет */
+        background-image: url("img/test_page.jpg");
+      }
+    }
+
+    BODY {
+      opacity: .5;
+    }
+  </style>
+  <link href="sass/px-styles.css" rel="stylesheet">
+  <script type="text/javascript" src="js/lib/script.js"></script>
+  <!-- Pixel Glass -->
+</head>
+
+<body class="page-body">
+  <header class="page-header">
+    <nav class="page-header__menu main-menu">
+      <button class="main-menu__humburger">
+        <span class="visually-hidden">Menu</span>
+        <div class="main-menu__line"></div>
+      </button>
+      <ul class="main-menu__list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Studio</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="page-header__headline headline">
+      <h1 class="visually-hidden">Associates studio design</h1>
+      <div class="headline__inner">
+        <img src="../img/DSGN.png" alt="Associates studio design" class="headline__logo">
+        <p class="headline__desc">Associates studio design</p>
+        <ul class="headline__list">
+          <li class="headline__item">
+            <a href="#" class="headline__link headline__link--fb"><span class="visually-hidden">Facebook</span></a>
+          </li>
+          <li class="headline__item">
+            <a href="#" class="headline__link headline__link--tw"><span class="visually-hidden">Twitter</span></a>
+          </li>
+          <li class="headline__item">
+            <a href="#" class="headline__link headline__link--in"><span class="visually-hidden">LinkedIn</span></a>
+          </li>
+          <li class="headline__item">
+            <a href="#" class="headline__link headline__link--goog"><span class="visually-hidden">Google+</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="page-header__contacts contacts">
+      <h2 class="visually-hidden">Contacts</h2>
+      <p class="contacts__info contacts__info--address">90802 California Long beach PO&nbspBox&nbsp68789 300&nbspEast&nbspOcean  Boulevard</p>
+      <div class="contacts__relation">
+        <a href="tel: +64 9 345 6758" class="contacts__info contacts__info--tel">+64 9 345 6758</a>
+        <a href="mailto: info@dsgn-studio.com" class="contacts__info contacts__info--mail">info@dsgn-studio.com</a>
+      </div>
+    </section>
+  </header>
+  <main class="page-main">
+    <section class="page-main__navigation navigation">
+      <h2 class="navigation__title">Projects</h2>
+      <nav class="navigation__menu">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#" class="navigation__link navigation__link--active">All</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">House</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">Commercial</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">Personal</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">Studio lab</a></li>
+        </ul>
+      </nav>
+    </section>
+    <ul class="page-main__projects projects">
+      <li class="projects__item">
+        <article class="preview preview__general">
+          <h1 class="preview__title">Fondue</h1>
+          <img src="../img/fondue.jpg" alt="Fondue" class="preview__img">
+          <div class="preview__info">
+            <ul class="preview__list">
+              <li class="preview__item">
+                <span class="preview__subtitle">Project Assistant:</span> Francesco Dompieri
+              </li>
+              <li class="preview__item">
+                <span class="preview__subtitle">Material:</span> Glass and Metal
+              </li>
+              <li class="preview__item">
+                <span class="preview__subtitle">Typology:</span> Suspension lamp
+              </li>
+              <li class="preview__item">
+                <span class="preview__subtitle">Client:</span> David Design
+              </li>
+              <li class="preview__item">
+                <span class="preview__subtitle">Year:</span> 2014
+              </li>
+            </ul>
+          </div>
+          <a href="#" class="preview__link">View project</a>
+          <button type="button" title="Like it" class="preview__btn">+200</button>
+        </article>
+      </li>
+      <li class="projects__item">
+        <article class="preview">
+          <h1 class="preview__title">Potter</h1>
+          <img src="../img/potter.jpg" alt="Potter" class="preview__img">
+          <div class="preview__info">
+            <span class="preview__subtitle">for stelton</span> Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.
+          </div>
+          <a href="#" class="preview__link">View project</a>
+          <button type="button" title="Like it" class="preview__btn">+200</button>
+        </article>
+        <article class="preview">
+          <h1 class="preview__title">Fiji</h1>
+          <img src="../img/fiji.jpg" alt="Fiji" class="preview__img">
+          <div class="preview__info">
+            <ul class="preview__list">
+              <li class="preview__item">
+                <span class="preview__subtitle">designer:</span> Cuno Frommherz
+              </li>
+              <li class="preview__item">
+                <span class="preview__subtitle">Typology:</span> armchairs
+              </li>
+              <li class="preview__item">
+                <span class="preview__subtitle">Year:</span> 2012
+              </li>
+            </ul>
+          </div>
+          <a href="" class="preview__link">View project</a>
+          <button type="button" title="Like it" class="preview__btn">+200</button>
+        </article>
+      </li>
+    </ul>
+  </main>
+
+  <script type="text/javascript" src="js/scripts.min.js"></script>
+</body>
+
+</html>

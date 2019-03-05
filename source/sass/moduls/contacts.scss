@@ -1,0 +1,36 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  width: 465px;
+  padding-top: 50px;
+  padding-left: 58px;
+  background-color: $cyan;
+  background-image: linear-gradient(to bottom right, transparent 49.5%, $white, transparent 50%);
+  background-repeat: no-repeat;
+}
+
+.contacts__info {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: $white;
+  text-decoration: none;
+
+  &--address {
+    margin-bottom: 41px;
+    width: 110px;
+  }
+}
+
+.contacts__relation {
+  display: flex;
+  flex-direction: column;
+  padding-left: 76px;
+  margin-bottom: 103px;
+}

@@ -1,0 +1,43 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v18-latin_cyrillic-regular.woff2') format('woff2'),
+       url('../fonts/roboto-v18-latin_cyrillic-regular.woff') format('woff'),
+       url('../fonts/roboto-v18-latin_cyrillic-regular.ttf') format('truetype'),
+}
+
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../fonts/roboto-v18-latin_cyrillic-700.woff2') format('woff2'),
+       url('../fonts/roboto-v18-latin_cyrillic-700.woff') format('woff'),
+       url('../fonts/roboto-v18-latin_cyrillic-700.ttf') format('truetype'),
+}
+
+/* roboto-condensed-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+       url('../fonts/roboto-condensed-v16-latin_cyrillic-regular.woff2') format('woff2'),
+       url('../fonts/roboto-condensed-v16-latin_cyrillic-regular.woff') format('woff'),
+       url('../fonts/roboto-condensed-v16-latin_cyrillic-regular.ttf') format('truetype'),
+}
+
+/* roboto-condensed-700italic - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'),
+       url('../fonts/roboto-condensed-v16-latin_cyrillic-700italic.woff2') format('woff2'),
+       url('../fonts/roboto-condensed-v16-latin_cyrillic-700italic.woff') format('woff'),
+       url('../fonts/roboto-condensed-v16-latin_cyrillic-700italic.ttf') format('truetype'),
+}

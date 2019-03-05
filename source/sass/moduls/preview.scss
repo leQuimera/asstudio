@@ -1,0 +1,52 @@
+.preview {
+  position: relative;
+  box-sizing: border-box;
+  background-color: $gainsboro;
+
+  &:nth-child(2n) {
+    background-color: $white;
+  }
+}
+
+.preview__general {
+  background-color: $white;
+}
+
+.preview__title {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 14px;
+  color: $dimgray;
+}
+
+.preview__list {
+  @include clear-list();
+}
+
+.preview__img {
+  position: absolute;
+  z-index: -1;
+  opacity: .9;
+}
+
+.preview__subtitle {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: $dimgray;
+}
+
+.preview__info {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: $dimgray;
+}
+
+.preview__btn {
+  background-color: transparent;
+  border: 0;
+}
