@@ -1,6 +1,8 @@
 .preview {
   position: relative;
   box-sizing: border-box;
+  padding-left: 30px;
+  padding-top: 25px;
   background-color: $gainsboro;
 
   &:nth-child(2n) {
@@ -9,10 +11,14 @@
 }
 
 .preview__general {
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 71px;
   background-color: $white;
 }
 
 .preview__title {
+  margin-bottom: 20px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -22,6 +28,7 @@
 
 .preview__list {
   @include clear-list();
+  width: 100%;
 }
 
 .preview__img {
@@ -38,15 +45,79 @@
   color: $dimgray;
 }
 
-.preview__info {
+.preview__item {
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 12px;
   line-height: 12px;
   color: $dimgray;
 }
 
+.preview__info {
+  box-sizing: border-box;
+  width: 325px;
+  padding-right: 110px;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: $dimgray;
+
+  &--general {
+    width: 470px;
+    padding-right: 170px;
+    margin-bottom: 77px;
+  }
+}
+
+.preview__link {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 34px;
+  margin-bottom: 138px;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 12px;
+  color: $dimgray;
+  text-decoration: none;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 9px;
+    top: 0;
+    width: 19px;
+    height: 15px;
+    background-color: transparent;
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+}
+
 .preview__btn {
+  position: relative;
+  padding-left: 68px;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 12px;
+  color: $red;
   background-color: transparent;
   border: 0;
+
+  &::before {
+    content: '';
+    display: block;
+    left: 15px;
+    top: 0;
+    width: 24px;
+    height: 22px;
+    background-color: transparent;
+    background-image: url('../img/heart.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
 }

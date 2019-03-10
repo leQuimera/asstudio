@@ -1,7 +1,6 @@
 {
-  "name": "asstusio.com",
+  "name": "asstudio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +23,6 @@
     "gulp-svgstore": "^7.0.1",
     "gulp-uglify": "^3.0.1",
     "run-sequence": "^2.2.1"
-  }
+  },
+  "description": ""
 }
