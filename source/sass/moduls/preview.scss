@@ -1,25 +1,27 @@
 .preview {
+  position: relative;
   display: flex;
   width: 465px;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
   box-sizing: border-box;
-  background-color: $gainsboro;
+  background-color: $white;
   overflow: hidden;
 
-  &:nth-child(2n) {
-    background-color: $white;
-    flex-direction:  row;
+  &--left {
+    background-color: $gainsboro;
+    flex-direction: row;
   }
 }
 
 .preview__title {
-  margin-bottom: 19px;
+  margin-bottom: 15px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 14px;
   color: $dimgray;
+  letter-spacing: -.7px;
 }
 
 .preview__list {
@@ -29,18 +31,33 @@
 
 .preview__wrapper {
   position: relative;
+  box-sizing: border-box;
+  width: 50%
+  padding-top: 35px;
+  padding-left: 15px;
   background-color: transparent;
-  width: 50%;
+
+  &--left {
+    padding-top: 23px;
+    padding-left: 40px;
+  }
 }
 
 .preview__img {
-  width: 50%;
+  position: absolute;
+  top: 19px;
+  left: -22px;
+
+  &--left {
+    top: 3px;
+    left: 160px;
+  }
 }
 
 .preview__subtitle {
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 12px;
   color: $dimgray;
 }
@@ -48,7 +65,7 @@
 .preview__item {
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 12px;
   color: $dimgray;
   letter-spacing: -.3px;
@@ -56,21 +73,26 @@
 
 .preview__info {
   box-sizing: border-box;
-  width: 325px;
-  padding-right: 110px;
+  width: 165px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 12px;
   color: $dimgray;
+}
+
+.preview__text {
+  margin: 0;
+  margin-bottom: 18px;
+  text-transform: none;
 }
 
 .preview__link {
   position: relative;
   display: block;
   box-sizing: border-box;
-  padding-left: 34px;
-  margin-bottom: 112px;
+  padding-left: 28px;
+  margin-bottom: 24px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -81,7 +103,7 @@
   &::before {
     content: '';
     position: absolute;
-    left: 7px;
+    left: 2px;
     top: -2px;
     width: 19px;
     height: 15px;
@@ -97,7 +119,7 @@
   width: 35px;
   min-height: 40px;
   padding-top: 32px;
-  margin-left: 60px;
+  margin-left: 55px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 11px;
@@ -105,7 +127,7 @@
   color: $red;
   background-color: transparent;
   border: 0;
-  margin-bottom: 71px;
+  margin-bottom: 25px;
 
   &::before {
     content: '';
