@@ -5,13 +5,16 @@
   box-sizing: border-box;
   width: 465px;
   padding-top: 50px;
-  padding-left: 130px;
+  padding-left: 127px;
   background-color: $orange;
   background-image: linear-gradient(to bottom right, transparent 49.5%, $white, transparent 50%);
   background-repeat: no-repeat;
 }
 
 .navigation__title {
+  align-self: flex-end;
+  margin-right: 49px;
+  margin-bottom: 178px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 48px;

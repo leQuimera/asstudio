@@ -27,12 +27,13 @@
 .preview__list {
   @include clear-list();
   width: 100%;
+  margin-bottom: 27px;
 }
 
 .preview__wrapper {
   position: relative;
   box-sizing: border-box;
-  width: 50%
+  width: 50%;
   padding-top: 35px;
   padding-left: 15px;
   background-color: transparent;
@@ -73,12 +74,13 @@
 
 .preview__info {
   box-sizing: border-box;
-  width: 165px;
+  width: 157px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 12px;
   color: $dimgray;
+  letter-spacing: -.5px;
 }
 
 .preview__text {
