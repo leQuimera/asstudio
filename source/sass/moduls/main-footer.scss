@@ -1,4 +1,5 @@
-.contacts {
+.main-footer {
+  order: 2;
   display: flex;
   flex-direction: column;
   flex-grow: 0;
@@ -12,7 +13,7 @@
   background-repeat: no-repeat;
 }
 
-.contacts__info {
+.main-footer__info {
   box-sizing: border-box;
   margin: 0;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
@@ -28,7 +29,7 @@
   }
 }
 
-.contacts__relation {
+.main-footer__relation {
   display: flex;
   flex-direction: column;
   padding-left: 76px;
