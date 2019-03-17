@@ -1,14 +1,15 @@
 .main-menu {
   position: absolute;
-  z-index: 10;
-  right: 0;
-  top: 0;
+  width: 70%;
+  right: -298px;
+  top: 50px;
+  z-index: 5;
 }
 
 .main-menu__humburger {
   position: absolute;
-  top: 50px;
-  left: 173px;
+  top: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,12 +18,31 @@
   height: 120px;
   background-color: transparent;
   border: 2px solid$white;
-  z-index: 5;
+  z-index: 10;
 }
 
 .main-menu__list {
   @include clear-list();
-  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 725px;
+  background-color: $palett;
+  z-index: 15;
+}
+
+.main-menu__link {
+  color: $white;
+  text-decoration: none;
+}
+
+.main-menu__item {
+  flex-grow: 1;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .main-menu__line {
